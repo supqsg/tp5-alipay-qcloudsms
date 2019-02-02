@@ -46,13 +46,13 @@ class Qcloudsms
      * 2、只是单发模板短信的接口，其他形式的可参考开发手册
      * @param string $phone
      */
-    public function sendSms($phone = '13544573604')
+    public function sendSms()
     {
         $code = rand(1000,9999);
         $params = [$code,config('sms.totaltime')];
         try {
             $sendRequest = new SmsSingleSender(config('sms.appid'), config('sms.appkey'));
-            $result = $sendRequest->sendWithParam("86", $phone, config('sms.templateId'),
+            $result = $sendRequest->sendWithParam("86", config('sms.testphone'), config('sms.templateId'),
                 $params, config('sms.smsSign'), "", "");  // 签名参数未提供或者为空时，会使用默认签名发送短信
             var_dump(json_decode($result));
         } catch(\Exception $e) {
