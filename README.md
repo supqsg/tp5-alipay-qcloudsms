@@ -7,3 +7,5 @@ tp5+腾讯短信接口,实现短信接口类封装，采用单列模式
 腾讯云短信 PHP SDK
 https://github.com/qcloudsms/qcloudsms_php
 
+封装的类目录:/application/common/lib/
+
