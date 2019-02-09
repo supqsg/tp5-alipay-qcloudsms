@@ -44,9 +44,7 @@ class AliPay
     }
 
     /**
-     * 1、提供用于外部请求发送短信的接口
-     * 2、只是单发模板短信的接口，其他形式的可参考开发手册
-     * @param string $phone
+     * 1、提供用于外部请求支付二维码的接口
      */
     public function doPay($body,$subject,$total_amount,$out_trade_no)
     {
