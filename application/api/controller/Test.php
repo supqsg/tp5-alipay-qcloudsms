@@ -41,7 +41,7 @@ class Test extends Controller {
 
     public function notifyUrl()
     {
-        return 'notifyUrl';
+        return 'neotifyUrl';
     }
 
     public function returnUrl()
