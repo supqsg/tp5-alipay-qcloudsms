@@ -41,17 +41,17 @@ class Test extends Controller {
 
     public function notifyUrl()
     {
-        return 'neotifyUrl';
+        return 'ne323otifyUrl';
     }
 
     public function returnUrl()
     {
-        return 'r1111eturnU33rl';
+        return 'r1111eturnU33r11l';
     }
 
     public function test()
     {
-        return '438kk';
+        return 'wsni';
     }
 
 }
