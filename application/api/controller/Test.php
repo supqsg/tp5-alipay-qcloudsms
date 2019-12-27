@@ -46,12 +46,12 @@ class Test extends Controller {
 
     public function returnUrl()
     {
-        return 'r1111eturnUrl';
+        return '3566';
     }
 
     public function test()
     {
-        return '4gfsg24343434';
+        return '438kk';
     }
 
 }
