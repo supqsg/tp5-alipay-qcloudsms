@@ -46,7 +46,7 @@ class Test extends Controller {
 
     public function returnUrl()
     {
-        return '3566';
+        return 'r1111eturnU33rl';
     }
 
     public function test()
