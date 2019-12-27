@@ -51,7 +51,7 @@ class Test extends Controller {
 
     public function test()
     {
-        return 'tasetar';
+        return 'tasetar1';
     }
 
 }
