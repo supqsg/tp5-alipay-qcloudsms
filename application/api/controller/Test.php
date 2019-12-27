@@ -49,4 +49,9 @@ class Test extends Controller {
         return 'returnUrl';
     }
 
+    public function test()
+    {
+        return 'tasetar';
+    }
+
 }
