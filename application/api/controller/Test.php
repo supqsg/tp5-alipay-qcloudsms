@@ -51,7 +51,7 @@ class Test extends Controller {
 
     public function test()
     {
-        return 'wsni';
+        return '23232wsni';
     }
 
 }
